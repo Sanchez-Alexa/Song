@@ -11,12 +11,12 @@ $prechorus = ["And I cant", "but", "How we", "up alright", "And I", "you like no
 ];
 $chorus = ["You can", "me warm on a cold", "Warm on a cold cold", "Yeah you can", "me warm on a cold", "Warm on a cold cold
 "];
-$verse2 = ["I want to treat you something special Give you what you deserve I want to take you to In a 1950s See upcoming pop Get for your favorite 
+$verse2 = ["I want to", "you something special", "you what you deserve", "I want to", "you to", "In a 1950s", "upcoming pop", "for your favorite
 "];
 $bridge = ["Girl you could have So why you me and not me on my own? So thanks for me your 
 "];
 $nouns = [" rabbit ", " headlights ", " charm ", " arm ", " wonder ", " love ", " paradise ", " Merc ", " shows ", " tickets ", " artists ", " thing ", " anyone ", " number one ",];
-$verbs = [" feel ", " have ", " help ", " ended ", " felt ", " treat ", " give ", " take ", " see ", " get ", " choosing ", " leaving ", " making "];
+$verbs = [" feel ", " have ", " help ", " ended ", " felt ", " treat ", " Give ", " take ", " See ", " Get ", " choosing ", " leaving ", " making "];
 ?>
 
 <!DOCTYPE html>
@@ -45,4 +45,13 @@ $verbs = [" feel ", " have ", " help ", " ended ", " felt ", " treat ", " give "
     <p><?php echo $chorus[0].$verbKeep.$chorus[1].$nounNight?></p>
     <p><?php echo $chorus[2].$nounNight?></p>
     </body>
+
+    <h4>Verse 2</h4>
+    <p><?php echo $verse2[0].$verbs[5].$verse2[1]?></p>
+    <p><?php echo $verbs[6].$verse2[2]?></p>
+    <p><?php echo $verse2[3].$verbs[7].$verse2[4].$nouns[6]?></p>
+    <p><?php echo $verse2[5].$nouns[7]?></p>
+    <p><?php echo $verbs[8].$verse2[6].$nouns[8]?></p>
+    <p><?php echo $verbs[9].$nouns[9].$verse2[7].$nouns[10]?></p>
+
 </html>
